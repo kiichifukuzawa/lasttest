@@ -26,3 +26,15 @@ def thanks(receipt)
     puts "レシートです"
 end
 thanks(true)
+
+def order(item)
+    "#{item}をください"
+end
+puts order("カフェラテ")
+puts order("モカ")
+
+def order1(item, size)
+    "#{item}を#{size}サイズでください"
+end
+puts order1(item:"コーヒー", size:"M")
+
