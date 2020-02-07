@@ -33,8 +33,8 @@ end
 puts order("カフェラテ")
 puts order("モカ")
 
-def order1(item, size)
+def order1(item:, size:)
     "#{item}を#{size}サイズでください"
 end
-puts order1(item:"コーヒー", size:"M")
+puts order1(item: "コーヒー", size: "M")
 
